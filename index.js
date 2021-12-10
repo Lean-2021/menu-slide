@@ -38,5 +38,8 @@ function agrandarItem6(){
     $('li').prevAll().removeClass('traslado').css({transition:'1s'});
     $('.list-item6').nextAll().addClass('traslado');
 }
-
-
+function agrandarItem7(){
+    $('.list-item7').css({overflow:'visible'});
+    $('li').prevAll().removeClass('traslado').css({transition:'1s'});
+    $('.list-item7').next().addClass('traslado');
+}
